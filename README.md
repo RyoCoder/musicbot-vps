@@ -17,12 +17,12 @@ Saya akan menjelaskan proses deploy bot music di vps secara detail, mohon disima
 - `nvm install v15.1.0` untuk menginstall nodejs.
 - `sudo apt-get install ffmpeg` jalankan ini setelah menginstall nodejs.
 - `nano example env` buka file ini lalu isi vars nya, Jika sudah diisi, langsung Ctrl+X, lalu yes, lalu enter.
-- `cd ..` lakukan ini sebanyak 4 kali sampai kembali ke awal dibagian Geez-MusicProject.
+- `cd ..` lakukan ini sebanyak 3 kali sampai kembali ke awal dibagian Geez-MusicProject.
 - `cd GeezProject` 
 - `cd services` 
 - `cd callsmusic` 
 - `nano callsmusic.py` buka file ini, dibaris pytgcalls, clientid tambahkan koma (,) lalu masukkan angka yg sama sebanyak 4 digit.
-- `cd ..` lakukan ini lagi sampai kembali ke awal.
+- `cd ..` lakukan ini lagi sebanyak 3 kali sampai kembali ke awal.
 - `pip3 install -r requirements.txt` untuk menginstall requirements text.
 - `npm i -g npm` jalankan ini setelah menginstall requirements text.
 
