@@ -21,7 +21,7 @@ Saya akan menjelaskan proses deploy bot music di vps secara detail, mohon disima
 - `cd GeezProject` 
 - `cd services` 
 - `cd callsmusic` 
-- `nano callsmusic.py` buka file ini, dibaris pytgcalls, clientid tambahkan koma (,) lalu masukkan angka yg sama sebanyak 4 digit.
+- `nano callsmusic.py` buka file ini, dibaris pytgcalls, client tambahkan koma (,) lalu masukkan angka yg sama sebanyak 4 digit, contoh: client, 8888.
 - `cd ..` lakukan ini lagi sebanyak 3 kali sampai kembali ke awal.
 - `pip3 install -r requirements.txt` untuk menginstall requirements text.
 - `npm i -g npm` jalankan ini setelah menginstall requirements text.
